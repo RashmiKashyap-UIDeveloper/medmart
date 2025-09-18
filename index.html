@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Medmart</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/menu.svg" alt="menu" class="img-fluid">
+          </button>
+          <div class="collapse navbar-collapse justify-content-between mt-3 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 gap-4 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Collections </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Medications</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Stethoscopes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Thermometers</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Medical Supplies</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="icon-nav mt-4 mt-lg-0 ms-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+                <li class="nav-item" aria-label="Search">
+                  <a class="nav-link active" href="#">
+                    <img src="assets/search.svg" alt="search" loading="lazy">
+                  </a>
+                </li>
+                <li class="nav-item" aria-label="User Account">
+                  <a class="nav-link" href="#">
+                    <img src="assets/user.svg" alt="user" loading="lazy">
+                  </a>
+                </li>
+                <li class="nav-item cart position-relative" aria-label="Shopping Cart with 3 items">
+                  <a class="nav-link pe-0" href="#">
+                    <img src="assets/cart.svg" alt="cart" loading="lazy">
+                  </a>
+                  <span class=" position-absolute badge rounded-circle bg-primary d-flex align-items-center justify-content-center">03</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Banner Section -->
+      <section class="banner-section p-8 position-relative overflow-hidden">
+        <div class="overlay-images">
+          <div class="top-left-img position-absolute">
+            <img class="img-fluid" src="assets/Vaccine.webp" alt="vaccine">
+          </div>
+          <div class="bottom-left-img position-absolute">
+            <img class="img-fluid" src="assets/Mask.webp" alt="mask">
+          </div>
+          <div class="bottom-right-img position-absolute">
+            <img class="img-fluid" src="assets/sanitizer.webp" alt="sanitizer">
+          </div>
+        </div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="banner-content d-flex align-items-center justify-content-center flex-column">
+                <div class="text-center position-relative">
+                  <p class="mb-0">SINCE 2014</p>
+                  <img class="banner-txt img-fluid mt-1 p-3 p-sm-2" src="assets/banner-text.webp" alt="banner-text">
+                  <div class="overlay-image position-absolute">
+                    <img class="img-fluid" src="assets/Medicine.webp" alt="medicine">
+                  </div>
+                </div>
+                <div class="banner-action d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-2">
+                  <button class="btn btn-primary">Shop Essentials</button>
+                  <button class="btn btn-outline-secondary">About Medmart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Features Section -->
+      <section class="features">
+        <div class="container-fluid p-0">
+          <div class="row gx-0">
+            <div class="col-md-4 overlay-box">
+              <div>
+                <h3>99% Customer Satisfaction</h3>
+                <p>Rated highly for quality & reliability</p>
+              </div>
+            </div>
+            <div class="col-md-4 overlay-box">
+              <div>
+                <h3>Next-Day Dispatch</h3>
+                <p>Quick, dependable shipping across the UK</p>
+              </div>
+            </div>
+            <div class="col-md-4 overlay-box">
+              <div>
+                <h3>Safe & Certified</h3>
+                <p>All products meet medical safety standards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trust By Section -->
+      <section class="trustedBy border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-7 col-xl-8 d-flex align-items-center justify-content-center justify-content-md-start">
+              <div class="chat d-flex align-items-center justify-content-center flex-column flex-md-row gap-3 gap-md-4">
+                <span>
+                  <img class="img-fluid" src="assets/chat.svg" alt="chat">
+                </span>
+                <h3 class="m-0">Trusted by Thousands of Health Professionals & Households</h3>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 mt-3 mt-md-0">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-end flex-wrap gap-3 gap-xl-5">
+                <img class="img-fluid" src="assets/trustpilot.webp" alt="trustpilot" loading="lazy">
+                <img class="img-fluid" src="assets/google.webp" alt="google" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Offers Section -->
+      <section class="offers py-4 py-md-5">
+        <div class="container inner">
+          <div class="row">
+            <div class="col-md-5 col-lg-5 col-xl-4">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/slider/slider-1.webp" class="img-fluid d-block w-100" alt="slider-1" loading="lazy">
+                    <div class="carousel-caption  text-end">
+                      <h5>Enjoy 50% OFF</h5>
+                      <p>Your First Order </p>
+                      <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/slider/slider-2.webp" class="img-fluid d-block w-100" alt="slider-2" loading="lazy">
+                    <div class="carousel-caption  text-end">
+                      <h5>Enjoy 50% OFF</h5>
+                      <p>Your First Order </p>
+                      <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/slider/slider-3.webp" class="img-fluid d-block w-100" alt="slider-3" loading="lazy">
+                    <div class="carousel-caption  text-end">
+                      <h5>Enjoy 50% OFF</h5>
+                      <p>Your First Order </p>
+                      <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-7 col-xl-8 d-flex flex-column gap-4 mt-4 mt-md-0">
+              <div class="bg-light-gray offer-box bg-cover flex-fill top-image d-flex align-items-end align-items-md-center p-3 p-lg-5" style="background-image: url('assets/offer-1.webp');">
+                <div class="offer-caption">
+                  <h5>Save 30% on</h5>
+                  <h3>Digital Electronic Stethoscopes</h3>
+                  <a href="#" class="btn btn-link mt-2 mt-md-3">Visit Store</a>
+                </div>
+              </div>
+              <div class="row flex-fill">
+                <div class="col-md-6">
+                  <div class="bg-light-gray offer-box bg-cover h-100" style="background-image: url('assets/offer-2.webp');">
+                    <div class="offer-caption ms-auto text-end">
+                      <h3> Get Digital Thermometers</h3>
+                      <a href="#" class="btn btn-link mt-2 mt-md-3">Visit Store</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                  <div class="bg-primary offer-box bg-cover h-100 d-flex align-items-start" style="background-image: url('assets/offer-3.webp');">
+                    <div class="offer-caption">
+                      <h3>Essential Medical Supplies</h3>
+                      <a href="#" class="btn btn-link text-white mt-2 mt-md-3">Shop now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products Section -->
+      <section class="products py-4 py-md-5">
+        <div class="container inner">
+          <div class="row">
+            <div class="col-sm-12 text-center mb-4">
+              <h1 class="heading mb-4">Medical & Wellness Products</h1>
+              <p class="lead">Free Shipping on Orders Over $59 or with Your First Purchase</p>
+            </div>
+            <div class="col-sm-12">
+              <!-- Tabs -->
+              <ul class="nav nav-tabs nav-pills nav-justified mb-4 flex-nowrap " id="myTab" role="tablist">
+                <li class="nav-item">
+                  <button class="nav-link active" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular-items" type="button" role="tab">Popular Items</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" id="top-tab" data-bs-toggle="tab" data-bs-target="#top-rated" type="button" role="tab">Top Rated</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" id="trending-tab" data-bs-toggle="tab" data-bs-target="#trending-items" type="button" role="tab">Trending Items</button>
+                </li>
+              </ul>
+              <!-- Tab Contents -->
+              <div class="tab-content pt-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="popular-items" role="tabpanel">
+                  <div class="row g-4" id="popular-list"></div>
+                </div>
+                <div class="tab-pane fade" id="top-rated" role="tabpanel">
+                  <div class="row g-4" id="top-list"></div>
+                </div>
+                <div class="tab-pane fade" id="trending-items" role="tabpanel">
+                  <div class="row g-4" id="trending-list"></div>
+                </div>
+              </div>
+              <!-- Common Load More Button -->
+              <div class="text-center d-flex justify-content-center">
+                <div id="loader" style="display:none; text-align:center; margin:20px;" class="mt-5">
+                  <img src="assets/loader.webp" alt="loader" class="spin" loading="lazy">
+                </div>
+                <button id="loadMoreBtn" class="btn btn-primary mt-4 mt-md-5">View More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section class="faq py-4 py-md-5">
+        <div class="container inner">
+          <div class="row">
+            <div class="col-sm-12 text-center mb-2 mb-md-4">
+              <h1 class="heading mb-3">Frequently Ask Questions</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="accordion" id="accordionLeft">
+                <!-- Accordion Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <span class="me-2"> What payment methods do you accept?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                    <div class="accordion-body">We accept major credit and debit cards, PayPal, and secure online banking options to ensure your transactions are safe and convenient.</div>
+                  </div>
+                </div>
+                <!-- Accordion Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span class="me-2">How long does delivery take?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                    <div class="accordion-body">Orders placed before 3 PM are dispatched the same day, with most UK deliveries arriving within 1–2 business days.</div>
+                  </div>
+                </div>
+                <!-- Accordion Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span class="me-2">Do you offer free shipping?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                    <div class="accordion-body">Yes! We provide free shipping on orders over $59 or with your first purchase.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="accordion" id="accordionRight">
+                <!-- Accordion Item 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <span class="me-2">Are your products certified?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                    <div class="accordion-body">All our medical and wellness products meet the required safety and certification standards, ensuring reliability and quality.</div>
+                  </div>
+                </div>
+                <!-- Accordion Item 5 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <span class="me-2"> What is your return policy?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                    <div class="accordion-body">We offer a 30-day hassle-free return policy for unused items in their original packaging.</div>
+                  </div>
+                </div>
+                <!-- Accordion Item 6 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button gap2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <span class="me-2">How can I contact customer support?</span>
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                    <div class="accordion-body">Our support team is available 24/7 via email, phone, or live chat to assist with any questions or concerns.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Support Section -->
+      <section class="support py-4 py-md-5 border-top">
+        <div class="container inner">
+          <div class="row gap-4 gap-md-0">
+            <div class="col-md-4">
+              <div class="support-box d-flex align-items-center gap-4 px-lg-4">
+                <div class="icon">
+                  <img src="assets/shipping.svg" alt="shipping" loading="lazy">
+                </div>
+                <div>
+                  <h3>Free Shipping</h3>
+                  <p>Free Shipping on Orders Over $59 or with Your First Purchase</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="support-box d-flex align-items-center gap-4 px-lg-4">
+                <div class="icon">
+                  <img src="assets/return.svg" alt="return policy" loading="lazy">
+                </div>
+                <div>
+                  <h3>30 Days Return policy</h3>
+                  <p>Hassle-free refunds for any issues with the orders</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="support-box d-flex align-items-center gap-4 px-lg-4">
+                <div class="icon">
+                  <img src="assets/support.svg" alt="support" loading="lazy">
+                </div>
+                <div>
+                  <h3>24/7 Support</h3>
+                  <p>Our dedicated team is always here to help</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content text-white">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="column col-sm-12 col-md-6 col-lg-3">
+              <div class="log">
+                <img class="img-fluid" src="assets/logo-white.svg" alt="logo">
+              </div>
+              <p class="mb-0 mt-4"> Medmart is an online medical service and medicine wooCommerce Template for your ultimate online store and medical service. </p>
+              <ul class="list-inline d-flex gap-3 flex-column mt-4">
+                <li class="location d-flex align-items-start gap-3">
+                  <span class="icon">
+                    <img src="assets/location.svg" alt="location" loading="lazy">
+                  </span> 16 Collins Street West Victoria, London
+                </li>
+                <li class="email d-flex align-items-center gap-3">
+                  <span class="icon">
+                    <img src="assets/email.svg" alt="email" loading="lazy">
+                  </span> yourmail@gmail.com
+                </li>
+                <li class="phone d-flex align-items-center gap-3" >
+                  <span class="icon">
+                    <img src="assets/phone.svg" alt="phone" loading="lazy">
+                  </span> +88022 533 655
+                </li>
+              </ul>
+            </div>
+            <div class="column col-sm-12 col-md-6 col-lg-3 mt-4 mt-md-0">
+              <h5>Products</h5>
+              <ul class="list-inline  d-flex gap-3 flex-column mt-4">
+                <li>
+                  <a href="#">Medicines</a>
+                </li>
+                <li>
+                  <a href="#">Vitamins & Supplements</a>
+                </li>
+                <li>
+                  <a href="#">Accessories</a>
+                </li>
+                <li>
+                  <a href="#">Medical Equipment</a>
+                </li>
+                <li>
+                  <a href="#">All Products</a>
+                </li>
+                <li>
+                  <a href="#">Doctor Equipment</a>
+                </li>
+                <li>
+                  <a href="#">Offer Sale</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column col-sm-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+              <h5>Quick Link</h5>
+              <ul class="list-inline  d-flex gap-3 flex-column mt-4">
+                <li>
+                  <a href="#">Support</a>
+                </li>
+                <li>
+                  <a href="#">Refund Policy</a>
+                </li>
+                <li>
+                  <a href="#">Shipping & Returns</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column col-sm-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
+              <h5>Payments</h5>
+              <div class="mt-4">
+                <p>Secure Payments</p>
+                <ul class="list-inline d-flex gap-1">
+                  <li>
+                    <a href="#">
+                      <img src="assets/payment-1.svg" alt="visa" loading="lazy">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/payment-2.svg" alt="master card" loading="lazy">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/payment-3.svg" alt="payment" loading="lazy">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/payment-4.svg" alt="american express" loading="lazy">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/payment-5.svg" alt="paypal" loading="lazy">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="social-link list-inline d-flex gap-3 mt-4">
+                <li>
+                  <a href="#">
+                    <img src="assets/facebook.svg" alt="facebook" loading="lazy">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/twitter.svg" alt="twitter" loading="lazy">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/instagram.svg" alt="instagram" loading="lazy">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/piniterest.svg" alt="pininterest" loading="lazy">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center bg-primary text-white"> ©Copyright 2025 Medmart. All Rights Reserved. </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
